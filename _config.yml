@@ -23,7 +23,7 @@ paginate_path:    "/blog/page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/freezebreath/freezebreath.github.io
+  repo:           https://github.com/Freezebreath/freezebreath.github.io
 
 social:
   twitter:        https://twitter.com/freezebreath
