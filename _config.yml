@@ -6,15 +6,15 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Colin Willson
+title:            Krystian Kuzyk
 tagline:          'Computer Programmer/Analyst'
 description:      'Computer Programmer/Analyst'
-url:              http://CWftw.me
+url:              http://webkuzyk.ca
 baseurl:          /
 
 author:
-  name:           'Colin Willson'
-  url:            http://CWftw.me
+  name:           'Krystian Kuzyk'
+  url:            http://webkuzyk.ca
 
 paginate:         5
 paginate_path:    "/blog/page:num"
@@ -23,9 +23,9 @@ paginate_path:    "/blog/page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/CWftw/cwftw.github.io
+  repo:           https://github.com/freezebreath/webkuzyk.github.io
 
 social:
-  twitter:        https://twitter.com/CWftw
-  google:         https://plus.google.com/+ColinWillson
-  linkedin:       https://ca.linkedin.com/in/colinwillson/
+  twitter:        https://twitter.com/freezebreath
+  google:         https://plus.google.com/+freezebreath
+  linkedin:       https://www.linkedin.com/in/krystian-kuzyk-30151897/
