@@ -13,7 +13,7 @@ title: Blog
 
   <title>
     
-      Blog · Colin Willson
+      Blog · Krystian Kuzyk
     
   </title>
 
@@ -31,36 +31,58 @@ title: Blog
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
+<body>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+  <div class="sidebar">
+<div class="container sidebar-sticky">
+  <div class="sidebar-about">
+    <h1>
+      <a href="/">
+        Krystian Kuzyk
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content | strip_html | truncatewords: 50 }}
+    <p class="lead">Computer Programmer/Analyst</p>
   </div>
-  {% endfor %}
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+    <a class="sidebar-nav-item" href="http://freezebreath.github.io/projects/">Projects</a>
+    <a class="sidebar-nav-item active" href="http://freezebreath.github.io/blog/">Blog</a>
+    <a class="sidebar-nav-item" href="https://plus.google.com/+ColinWillson">Google+</a>
+    <a class="sidebar-nav-item" href="https://twitter.com/CWftw">Twitter</a>
+    <a class="sidebar-nav-item" href="http://freezebreath.github.io.me/contact/">Contact</a>
+  </nav>
+
+  <p>© 2018. All rights reserved.</p>
+</div>
+</div>
+
+
+  <div class="content container">
+      <div class="posts">
+
+<div class="post">
+  <h1 class="post-title">
+    <a href="/2014/09/14/welcome/">
+      Welcome!
+    </a>
+  </h1>
+
+  <span class="post-date">14 Sep 2014</span>
+
+  You have found the blog section of my brand new website based on Jekyll and the Hyde theme. This site will be used to tell you more about me, show off some of my work and link to all my social media. Enjoy!
+
+</div>
+
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+
+  <span class="pagination-item older">Older</span>
+
+
+  <span class="pagination-item newer">Newer</span>
+
 </div>
+  </div>
+</body>

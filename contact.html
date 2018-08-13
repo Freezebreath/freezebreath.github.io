@@ -37,25 +37,52 @@ custom_js: "contact.js"
   </head>
 
 
-<div class="posts">
+  <body>
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Krystian Kuzyk
+        </a>
+      </h1>
+      <p class="lead">Computer Programmer/Analyst</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="http://freezebreath.github.io/projects/">Projects</a>
+      <a class="sidebar-nav-item" href="http://freezebreath.github.io/blog/">Blog</a>
+      <a class="sidebar-nav-item" href="https://plus.google.com/+ColinWillson">Google+</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/CWftw">Twitter</a>
+      <a class="sidebar-nav-item active" href="http://freezebreath.github.io/contact/">Contact</a>
+    </nav>
+
+    <p>© 2018. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+        <div class="posts">
     <div class="post">
         <h1 class="post-title">
-            {{ page.title }}
+            Contact
         </h1>
 
-        <form method="post" action="https://formspree.io/Colin@CWftw11.me" onsubmit="return validate();">
-            <input type="hidden" name="_subject" value="freezebreath.github.io: New Contact Submission!" />
-            <input type="hidden" name="_next" value="http://freezebreath.github.io/thanks/" />
+        <form method="post" action="https://formspree.io/Colin@CWftw.me" onsubmit="return validate();">
+            <input type="hidden" name="_subject" value="CWftw.me: New Contact Submission!">
+            <input type="hidden" name="_next" value="http://CWftw.me/thanks/">
 
             <div>
                 <label for="name">Name:</label>
-                <input id="name" type="text" name="name" />
+                <input id="name" type="text" name="name">
                 <span class="required">*</span>
             </div>
 
             <div>
                 <label for="email">Email:</label>
-                <input id="email" type="email" name="_replyto" />
+                <input id="email" type="email" name="_replyto">
                 <span class="required">*</span>
             </div>
 
@@ -71,3 +98,5 @@ custom_js: "contact.js"
         </form>
     </div>
 </div>
+    </div>
+</body>
