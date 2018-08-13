@@ -5,81 +5,25 @@ custom_css: "contact.css"
 custom_js: "contact.js"
 ---
 
-
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  
-    <title>
-      
-        Contact · Krystian Kuzyk
-      
-    </title>
-  
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/poole.css">
-    <link rel="stylesheet" href="public/css/syntax.css">
-    <link rel="stylesheet" href="public/css/hyde.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700%7CAbril+Fatface">
-    <link rel="stylesheet" href="public/css/contact.css">
-    <script src="public/js/contact.js" type="text/javascript"></script>
-      
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="/public/favicon.ico">
-  
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">
-          Krystian Kuzyk
-        </a>
-      </h1>
-      <p class="lead">Computer Programmer/Analyst</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Home</a>
-      <a class="sidebar-nav-item" href="http://freezebreath.github.io/projects/">Projects</a>
-      <a class="sidebar-nav-item" href="http://freezebreath.github.io/blog/">Blog</a>
-      <a class="sidebar-nav-item" href="https://plus.google.com/+ColinWillson">Google+</a>
-      <a class="sidebar-nav-item" href="https://twitter.com/CWftw">Twitter</a>
-      <a class="sidebar-nav-item active" href="http://freezebreath.github.io/contact/">Contact</a>
-    </nav>
-
-    <p>© 2018. All rights reserved.</p>
-  </div>
-</div>
-
-
-    <div class="content container">
-        <div class="posts">
+<div class="posts">
     <div class="post">
         <h1 class="post-title">
-            Contact
+            {{ page.title }}
         </h1>
 
-        <form method="post" action="https://formspree.io/Colin@CWftw.me" onsubmit="return validate();">
-            <input type="hidden" name="_subject" value="CWftw.me: New Contact Submission!">
-            <input type="hidden" name="_next" value="http://CWftw.me/thanks/">
+        <form method="post" action="https://formspree.io/Colin@CWftw11.me" onsubmit="return validate();">
+            <input type="hidden" name="_subject" value="freezebreath.github.io: New Contact Submission!" />
+            <input type="hidden" name="_next" value="http://freezebreath.github.io/thanks/" />
 
             <div>
                 <label for="name">Name:</label>
-                <input id="name" type="text" name="name">
+                <input id="name" type="text" name="name" />
                 <span class="required">*</span>
             </div>
 
             <div>
                 <label for="email">Email:</label>
-                <input id="email" type="email" name="_replyto">
+                <input id="email" type="email" name="_replyto" />
                 <span class="required">*</span>
             </div>
 
@@ -95,4 +39,3 @@ custom_js: "contact.js"
         </form>
     </div>
 </div>
-    </div>
