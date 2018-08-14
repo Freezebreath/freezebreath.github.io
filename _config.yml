@@ -9,12 +9,12 @@ permalink:        pretty
 title:            Krystian Kuzyk
 tagline:          'Computer Programmer/Analyst'
 description:      'Computer Programmer/Analyst'
-url:              https://freezebreath.github.io
+url:              https://KKuzyk.github.io
 baseurl:          /
 
 author:
   name:           'Krystian Kuzyk'
-  url:            https://freezebreath.github.io
+  url:            https://KKuzyk.github.io
 
 paginate:         5
 paginate_path:    "/blog/page:num"
@@ -23,7 +23,7 @@ paginate_path:    "/blog/page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/Freezebreath/freezebreath.github.io
+  repo:           https://github.com/KKuzyk/KKuzyk.github.io
 
 social:
   facebook:       https://www.facebook.com/krystian.kuzyk
